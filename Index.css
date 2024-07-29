@@ -8,14 +8,13 @@
     width: 100%;
     border-collapse: collapse;
     table-layout: fixed; /* Ensures that table columns are of equal width */
-    background-color: #fff; /* Optional: background color for table */
+    background-color: #0A0F0D; /* Optional: background color for table */
     border-radius: 8px; /* Optional: rounded corners for table */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for table */
 }
 
 .video-table td {
     padding: 8px;
-    border: 1px solid #ddd;
+    border: 1px solid #2A1E5C;
     text-align: center;
 }
 
@@ -67,26 +66,24 @@ h1
 {
     background-color: transparent;
     text-align: center;
+    font-weight: bold;
 }
     
 h2 
 {
     background-color: transparent;
     text-align: center;
+    font-weight: bold;
 }
   
 h3
 {
     background-color: transparent;
     text-align: left;
+    font-weight: bold;
 }
 
 p 
 {
-}
-
-footer
-{
-    text-align: end;
-    margin-top: 50px;
+    font-size: x-small;
 }
