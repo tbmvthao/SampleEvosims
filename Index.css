@@ -1,0 +1,69 @@
+div.navigation
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(background_image.webp);
+    background-size:cover;
+}
+
+div.li
+{
+    float: left;
+}
+
+div.li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.li a:hover
+{
+    background-color: #111;
+}
+
+.active
+{
+    background-color:aquamarine;
+}
+
+body
+{
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: monospace;
+    background-color:antiquewhite;
+}
+
+h1 
+{
+    background-color: transparent;
+    text-align: center;
+}
+    
+h2 
+{
+    background-color: transparent;
+    text-align: center;
+}
+  
+h3
+{
+    background-color: transparent;
+    text-align: left;
+}
+
+p 
+{
+}
+
+footer
+{
+    text-align: end;
+    margin-top: 50px;
+}
