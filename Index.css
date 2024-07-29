@@ -4,8 +4,6 @@ div.navigation
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-image: url(background_image.webp);
-    background-size:cover;
 }
 
 div.li
@@ -16,7 +14,7 @@ div.li
 div.li a
 {
     display: block;
-    color: white;
+    color: #0A0F0D;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -24,12 +22,27 @@ div.li a
 
 div.li a:hover
 {
-    background-color: #111;
+    background-color: #3CBBB1;
 }
 
 .active
 {
-    background-color:aquamarine;
+    background-color: #EE4266;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    align-items: center;
+}
+
+.video-item video {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
 }
 
 body
@@ -37,7 +50,8 @@ body
     margin-left: 150px;
     margin-right: 150px;
     font-family: monospace;
-    background-color:antiquewhite;
+    background-color: #C4CBCA;
+    color: #0A0F0D;
 }
 
 h1 
