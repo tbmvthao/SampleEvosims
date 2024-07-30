@@ -28,6 +28,7 @@
     margin-bottom: 8px; /* Space between the caption and the video */
     font-weight: bold;
     font-size: 1em;
+    color: #3CBBB1;
 }
 
 .video-table video {
@@ -86,4 +87,5 @@ h3
 p 
 {
     font-size: x-small;
+    color: #EE4266;
 }
