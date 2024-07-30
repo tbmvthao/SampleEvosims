@@ -2,6 +2,7 @@
 .container {
     width: auto; /* Adjust width as needed */
     max-width: 1200px; /* Optional: maximum width for larger screens */
+    margin: 0 auto;
 }
 
 .video-table {
@@ -58,29 +59,15 @@ body
 {
     margin-left: 150px;
     margin-right: 150px;
-    font-family: monospace;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0A0F0D;
     color: #C4CBCA;
 }
 
-h1 
+h1, h2 
 {
     background-color: transparent;
     text-align: center;
-    font-weight: bold;
-}
-    
-h2 
-{
-    background-color: transparent;
-    text-align: center;
-    font-weight: bold;
-}
-  
-h3
-{
-    background-color: transparent;
-    text-align: left;
     font-weight: bold;
 }
 
